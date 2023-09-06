@@ -16,6 +16,75 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.page-header .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+}
+
+.logo {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-right: 76px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 332px;
+}
+
+.container .contacts-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -76,6 +145,13 @@ button {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin: 0 auto;
+  width: 496px;
+  padding-bottom: 48px;
+}
+
+.m-btn {
+  display: flex;
 }
 
 .main-btn {
@@ -85,11 +161,26 @@ button {
   line-height: 24px;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
+}
+
+.advantages .secondary-title {
+  display: none;
+}
+
+.main-page {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .secondary-title {
@@ -100,6 +191,43 @@ button {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.advantages .third-title {
+  padding-bottom: 8px;
+}
+
+.team .secondary-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.container .adv-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.container .team-lst {
+  display: flex;
+  gap: 24px;
+}
+
+.team {
+  padding-bottom: 120px;
+}
+
+.team .third-title {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.team .advantages-description {
+  text-align: center;
+  padding-bottom: 32px;
+  width: 264px;
 }
 
 .team-list {
@@ -118,6 +246,28 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+}
+
+.portfolio .secondary-title {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.container .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.portfolio .third-title {
+  padding-top: 32px;
+  padding-left: 16px;
+}
+
+.portfolio .advantages-description {
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .team {
@@ -153,4 +303,14 @@ button {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.page-footer {
+  padding-top: 102px;
+  padding-bottom: 100px;
+}
+
+.container .footer-text {
+  padding-top: 16px;
+  width: 264px;
 }
