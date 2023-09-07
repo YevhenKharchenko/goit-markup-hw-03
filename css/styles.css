@@ -235,13 +235,10 @@ ul {
 
 .team .third-title {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 8px;
 }
 
 .team .advantages-description {
   text-align: center;
-  padding-bottom: 32px;
   width: 264px;
 }
 
@@ -299,14 +296,7 @@ ul {
 }
 
 .portfolio .third-title {
-  padding-top: 32px;
-  padding-left: 16px;
   margin-bottom: 8px;
-}
-
-.portfolio .advantages-description {
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 
 .team {
