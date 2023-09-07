@@ -290,7 +290,6 @@ ul {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .item-descr {
@@ -352,6 +351,5 @@ ul {
 }
 
 .container .footer-text {
-  padding-top: 16px;
   width: 264px;
 }
