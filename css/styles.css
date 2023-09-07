@@ -36,11 +36,9 @@ ul {
 }
 
 .container {
-  max-width: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
+  max-width: 1158px;
+  margin-left: 0 auto;
+  padding: 0 15px;
 }
 
 .page-header .container {
@@ -64,6 +62,7 @@ ul {
 .navigation {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .nav-list {
@@ -111,6 +110,7 @@ ul {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .nav-list-items:hover,
@@ -136,6 +136,8 @@ ul {
 
 .main-page {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -146,12 +148,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 1.12px;
   margin: 0 auto;
-  width: 496px;
+  max-width: 496px;
   padding-bottom: 48px;
-}
-
-.m-btn {
-  display: flex;
 }
 
 .main-btn {
@@ -161,6 +159,11 @@ ul {
   line-height: 24px;
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-right: 32px;
@@ -174,13 +177,16 @@ ul {
   background-color: #404bbf;
 }
 
-.advantages .secondary-title {
-  display: none;
+.advantages {
+  padding: 120px 0;
 }
 
-.main-page {
-  padding-top: 188px;
-  padding-bottom: 188px;
+.advantages .list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.advantages .secondary-title {
+  display: none;
 }
 
 .secondary-title {
@@ -194,12 +200,11 @@ ul {
 }
 
 .advantages .third-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team .secondary-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .container .adv-list {
@@ -215,7 +220,7 @@ ul {
 }
 
 .team {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team .third-title {
@@ -232,6 +237,20 @@ ul {
 
 .team-list {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.worker {
+  padding: 32px 0;
+}
+
+.worker .third-title {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.worker .advantages-description {
+  text-align: center;
 }
 
 .advantages-description {
@@ -248,21 +267,33 @@ ul {
   letter-spacing: 0.4px;
 }
 
+.portfolio {
+  padding: 120px 0;
+}
+
 .portfolio .secondary-title {
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .container .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   margin-bottom: 120px;
+}
+
+.item-descr {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio .third-title {
   padding-top: 32px;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio .advantages-description {
@@ -286,6 +317,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer .web {
@@ -306,8 +339,7 @@ ul {
 }
 
 .page-footer {
-  padding-top: 102px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .container .footer-text {
